@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 import { AppLayout } from "@/components/layouts";
 
 import { cn } from "@/lib/utils";
-import { GA4_ID } from "@/lib/constants";
+import { GA4_ID, GTM_ID } from "@/lib/constants";
 import { genMetaData } from "@/lib/metadata";
 
 import "./globals.css";
@@ -33,11 +33,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable} scroll-smooth`}>
+      {GTM_ID ? <GoogleTagManager gtmId={GTM_ID} /> : null}
+      {GA4_ID ? <GoogleAnalytics gaId={GA4_ID} /> : null}
       <body
         className={cn(montserrat.className, `antialiased overflow-x-hidden`)}
       >
         <AppLayout>{children}</AppLayout>
-        {GA4_ID ? <GoogleAnalytics gaId={GA4_ID} /> : null}
       </body>
     </html>
   );
