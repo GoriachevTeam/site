@@ -11,7 +11,7 @@ const MainBanner: FC = () => {
         <h1 className="relative z-1 w-full">
           <LogoWide className="h-auto w-full drop-shadow-xl saturate-120" />
           <span className="sr-only">
-            Офтальмологічний центр Дмитра Горячева у Львові
+            Офтальмологічний центр Дмитра Горячева в Ужгороді
           </span>
         </h1>
         <p className="text-center drop-shadow-lg lg:text-xl relative z-1">

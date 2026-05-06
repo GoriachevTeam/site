@@ -415,7 +415,7 @@ export default [
       {
         img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/top-equipment.jpeg",
         name: "Сучасне обладнання",
-        desc: "Для лікування захворювань сітківки ока у Львові у нашій клініці використовуються діагностичні та операційні інструменти провідних світових виробників — Zeiss, Oertli, Alcon та інших.",
+        desc: "Для лікування захворювань сітківки ока в Ужгороді у нашій клініці використовуються діагностичні та операційні інструменти провідних світових виробників — Zeiss, Oertli, Alcon та інших.",
       },
       {
         img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/surgens.jpeg",
