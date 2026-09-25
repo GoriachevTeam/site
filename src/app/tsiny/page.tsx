@@ -6,9 +6,9 @@ import { PriceAccordions } from "@/components/prices-page";
 import { genMetaData } from "@/lib/metadata";
 
 export const metadata: Metadata = genMetaData({
-  title: "Ціни на послуги офтальмології - Центр Дмитра Горячева в Ужгороді",
+  title: "Ціни на послуги офтальмолога в Ужгороді | Goriachev",
   description:
-    "Актуальні ціни на лікування зору в Ужгороді. Лазерна корекція та видалення катаракти в центрі Дмитра Горячева. Фіксована вартість без доплат. Оберіть свою послугу",
+    "Актуальні ціни на діагностику зору, консультації, лазерну корекцію, лікування катаракти, глаукоми та інші офтальмологічні послуги.",
   img: "img/prices/prices-og.jpeg",
   canonical: "tsiny",
 });
@@ -17,7 +17,7 @@ export default function PricesPage() {
   return (
     <>
       <TopBanner
-        title="Ціни"
+        title="Ціни на офтальмологічні послуги в Ужгороді"
         desc="Здоровий зір ближче, ніж здається."
         img={{ url: "/img/prices/prices-bg.jpeg", alt: "Ціни" }}
       />

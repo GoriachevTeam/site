@@ -6,9 +6,9 @@ import { DoctorsGrid } from "@/components/likari-page";
 import { genMetaData } from "@/lib/metadata";
 
 export const metadata: Metadata = genMetaData({
-  title: "Офтальмологи центру Дмитра Горячева: команда професіоналів",
+  title: "Офтальмологи в Ужгороді | Лікарі Центру Горячева",
   description:
-    "Досвідчені офтальмологи центру Дмитра Горячева в Ужгороді. Експертне лікування зору та індивідуальний підхід. Поверніть чіткість зору — записуйтесь на прийом!",
+    "Команда офтальмологів та офтальмохірургів Центру Дмитра Горячева в Ужгороді. Спеціалізації лікарів, досвід та запис на консультацію.",
   img: "img/likari/likari-og.jpeg",
   canonical: "likari",
 });
@@ -17,7 +17,7 @@ export default function DoctorsPage() {
   return (
     <>
       <TopBanner
-        title="Лікарі"
+        title="Офтальмологи в Ужгороді - команда Центру Дмитра Горячева"
         desc="Досвід, якому варто довіритись"
         img={{ url: "/img/likari/baner.jpg", alt: "Лікарі" }}
       />

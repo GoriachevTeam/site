@@ -1,18 +1,34 @@
 import Link from "next/link";
+import Head from "next/head";
+import { Metadata } from "next";
 
-import Equipment from "@/components/home-page/Equipment";
 import { Button } from "@/components/ui/button";
 import { DoctorsGrid } from "@/components/likari-page";
 import {
-  LastArticles,
-  MainBanner,
-  Responsibilities,
   WhyWe,
+  Equipment,
+  MainBanner,
+  LastArticles,
+  Responsibilities,
+  MedicalClinicSchema,
 } from "@/components/home-page";
+
+import { genMetaData } from "@/lib/metadata";
+
+export const metadata: Metadata = genMetaData({
+  title: "Офтальмологічний центр в Ужгороді | Центр Дмитра Горячева",
+  description:
+    "Офтальмологічний центр Дмитра Горячева в Ужгороді: діагностика зору, лазерна корекція, лікування катаракти, глаукоми та захворювань сітківки.",
+  img: "share-og.png",
+  canonical: "",
+});
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <MedicalClinicSchema />
+      </Head>
       <MainBanner />
       <WhyWe />
       <Equipment />

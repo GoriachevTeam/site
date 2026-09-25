@@ -8,9 +8,9 @@ import { ADRESSES } from "@/lib/adresses";
 import { genMetaData } from "@/lib/metadata";
 
 export const metadata: Metadata = genMetaData({
-  title: "Контакти та запис | Центр Дмитра Горячева в Ужгороді",
+  title: "Контакти офтальмологічного центру в Ужгороді | Goriachev",
   description:
-    "Адреса та телефон Центру Дмитра Горячева в Ужгороді. Зручна карта доїзду та графік роботи. Запишіться на діагностику зору онлайн за 1 хвилину!",
+    "Адреси, телефони та графік роботи Центру Дмитра Горячева в Ужгороді. Оберіть зручну локацію та запишіться на консультацію офтальмолога.",
   img: "img/contact/contact-og.jpeg",
   canonical: "kontakty",
 });
@@ -19,7 +19,7 @@ export default function ContactsPage() {
   return (
     <>
       <TopBanner
-        title="Контакти"
+        title="Контакти Центру Дмитра Горячева в Ужгороді"
         desc="Ми завжди на звʼязку. Перший крок - за вами."
         img={{ url: "/img/contacts/contacts-bg.jpeg", alt: "Контакти" }}
       />

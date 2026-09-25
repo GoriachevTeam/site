@@ -24,8 +24,7 @@ export async function generateMetadata({ params }: TypeServicePageParams) {
   if (!service) return {};
 
   return genMetaData({
-    title: service.name,
-    description: service.desc,
+    ...service.seo,
     img: service.img,
     canonical: `posluhy/${service.slug}`,
   });
@@ -45,7 +44,7 @@ export default async function ServicePage({ params }: TypeServicePageParams) {
   return (
     <>
       <TopBanner
-        title={service.name}
+        title={service.bannerTitle}
         desc={service.desc}
         img={{ url: service.img, alt: service.name }}
       />
