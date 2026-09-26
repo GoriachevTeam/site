@@ -4,7 +4,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/dityacha-oftalmologiya/child-ophtalmologist.jpeg",
+      url: "/img/services/dityacha-oftalmologiya/child-ophtalmologist.jpg",
       alt: "Дитячий офтальмолог",
     },
     body: (
@@ -33,7 +33,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/dityacha-oftalmologiya/newborn-check.jpeg",
+      url: "/img/services/dityacha-oftalmologiya/newborn-check.jpg",
       alt: "Огляд малюків",
     },
     body: (
@@ -63,7 +63,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/dityacha-oftalmologiya/preschool.jpeg",
+      url: "/img/services/dityacha-oftalmologiya/preschool.jpg",
       alt: "Огляд дитини від 1 року",
     },
     body: (
@@ -97,7 +97,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/dityacha-oftalmologiya/school-kids.jpeg",
+      url: "/img/services/dityacha-oftalmologiya/school-kids.jpg",
       alt: "Огляд дітей від шкільного віку",
     },
     body: (
@@ -129,7 +129,7 @@ export default [
     title: "Лікування зору у дітей в центрі Дмитра Горячева",
     articles: [
       {
-        img: "/img/services/dityacha-oftalmologiya/device-treatment.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/device-treatment.jpg",
         name: "Апаратне лікування",
         desc: (
           <>
@@ -158,7 +158,7 @@ export default [
         ),
       },
       {
-        img: "/img/services/dityacha-oftalmologiya/night-lenses.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/night-lenses.jpg",
         name: "Корекція зору нічними лінзами",
         desc: (
           <>
@@ -181,7 +181,7 @@ export default [
         ),
       },
       {
-        img: "/img/services/dityacha-oftalmologiya/strabismus-correction.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/strabismus-correction.jpg",
         name: "Корекція косоокості",
         desc: (
           <ul>
@@ -195,7 +195,7 @@ export default [
         ),
       },
       {
-        img: "/img/services/dityacha-oftalmologiya/consult.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/consult.jpg",
         name: "Консультація дитячого офтальмолога та діагностика зору",
         desc: (
           <>
@@ -213,7 +213,7 @@ export default [
         ),
       },
       {
-        img: "/img/services/dityacha-oftalmologiya/dakriocist.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/dakriocist.jpg",
         name: "Лікування дакріоциститу",
         desc: (
           <>
@@ -233,7 +233,7 @@ export default [
         ),
       },
       {
-        img: "/img/services/dityacha-oftalmologiya/premature-baby.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/premature-baby.jpg",
         name: "Лікування ретинопатії недоношених",
         desc: (
           <>
@@ -257,7 +257,7 @@ export default [
         ),
       },
       {
-        img: "/img/services/dityacha-oftalmologiya/refraction.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/refraction.jpg",
         name: "Лікування порушень рефракції",
         desc: (
           <>
@@ -280,7 +280,7 @@ export default [
         ),
       },
       {
-        img: "/img/services/dityacha-oftalmologiya/inflamation.jpeg",
+        img: "/img/services/dityacha-oftalmologiya/inflamation.jpg",
         name: "Лікування запальних захворювань органу зору",
         desc: (
           <>

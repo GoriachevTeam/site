@@ -94,7 +94,7 @@ export default [
             <p>Лікування хірургічним шляхом — вітректомія.</p>
           </>
         ),
-        img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/epi-membran.jpeg",
+        img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/epi-membran.jpg",
       },
       {
         name: "Макулярна дірка",
@@ -173,7 +173,7 @@ export default [
             </p>
           </>
         ),
-        img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/age-degeneration.jpeg",
+        img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/age-degeneration.jpg",
       },
       {
         name: "Відшарування сітківки",
@@ -418,7 +418,7 @@ export default [
         desc: "Для лікування захворювань сітківки ока в Ужгороді у нашій клініці використовуються діагностичні та операційні інструменти провідних світових виробників — Zeiss, Oertli, Alcon та інших.",
       },
       {
-        img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/surgens.jpeg",
+        img: "/img/services/khirurgiya-zakhvoryuvan-sitkivki/surgens.jpg",
         name: "Професіоналізм лікарів",
         desc: "Наші спеціалісти регулярно проходять підвищення кваліфікації, обмінюються досвідом з колегами та беруть участь у профільних заходах національного та міжнародного рівня.",
       },

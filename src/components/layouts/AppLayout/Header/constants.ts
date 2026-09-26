@@ -2,47 +2,47 @@ export const SERVICE_LINKS = [
   {
     name: "Лазерна корекція зору",
     url: "/posluhy/lazerna-korektsiya-zoru",
-    img: "/img/laser-correction.jpeg",
+    img: "/img/laser-correction.jpg",
   },
   {
     name: "Хірургія катаракти",
     url: "/posluhy/khirurgiya-katarakti",
-    img: "/img/khirurgiya-katarakti.jpeg",
+    img: "/img/khirurgiya-katarakti.jpg",
   },
   {
     name: "Хірургія захворювань сітківки",
     url: "/posluhy/khirurgiya-zakhvoryuvan-sitkivki",
-    img: "/img/retina-surgery.jpeg",
+    img: "/img/retina-surgery.jpg",
   },
   {
     name: "Хірургія глаукоми",
     url: "/posluhy/khirurgiya-glaukomi",
-    img: "/img/old-couple-in-love.jpeg",
+    img: "/img/old-couple-in-love.jpg",
   },
   // {
   //   name: "Лікування кератоконусу",
   //   url: "/posluhy/likuvannya-keratokonusu",
-  //   img: "/img/kerato-treatment.jpeg",
+  //   img: "/img/kerato-treatment.jpg",
   // },
   // {
   //   name: "Хірургія косоокості",
   //   url: "/posluhy/khirurgiya-kosookosti",
-  //   img: "/img/strabismus.jpeg",
+  //   img: "/img/strabismus.jpg",
   // },
   // {
   //   name: "Лікування сухого ока",
   //   url: "/posluhy/likuvannya-sukhogo-oka",
-  //   img: "/img/eye-water-fish.jpeg",
+  //   img: "/img/eye-water-fish.jpg",
   // },
   {
     name: "Дитяча офтальмологія",
     url: "/posluhy/dityacha-oftalmologiya",
-    img: "/img/child-ophtalmology.jpeg",
+    img: "/img/child-ophtalmology.jpg",
   },
   // {
   //   name: "Імплантація факічних лінз",
   //   url: "/posluhy/implantatsiya-fakichnikh-linz",
-  //   img: "/img/fac-lens.jpeg",
+  //   img: "/img/fac-lens.jpg",
   // },
 ];
 

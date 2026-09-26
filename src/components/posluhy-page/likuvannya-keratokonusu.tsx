@@ -37,7 +37,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/likuvannya-keratokonusu/keratoconus-reasons.jpeg",
+      url: "/img/services/likuvannya-keratokonusu/keratoconus-reasons.jpg",
       alt: "Причини виникнення цього захворювання",
     },
     body: (
@@ -65,7 +65,7 @@ export default [
     blurCompare: [
       {
         img: {
-          url: "/img/services/likuvannya-keratokonusu/keratoconus-free.jpeg",
+          url: "/img/services/likuvannya-keratokonusu/keratoconus-free.jpg",
           alt: "Здоровий вигляд",
         },
         label: "здоровий",
@@ -73,7 +73,7 @@ export default [
       },
       {
         img: {
-          url: "/img/services/likuvannya-keratokonusu/keratoconus-sick.jpeg",
+          url: "/img/services/likuvannya-keratokonusu/keratoconus-sick.jpg",
           alt: "Хворий вигляд",
         },
         label: "хворий",
@@ -103,7 +103,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/likuvannya-keratokonusu/crosslinking-method.jpeg",
+      url: "/img/services/likuvannya-keratokonusu/crosslinking-method.jpg",
       alt: "Методика крослінкінгу",
     },
     body: (
@@ -142,7 +142,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/likuvannya-keratokonusu/crosslinking-pros.jpeg",
+      url: "/img/services/likuvannya-keratokonusu/crosslinking-pros.jpg",
       alt: "Покази до крослінкінгу",
     },
     body: (
@@ -167,7 +167,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/likuvannya-keratokonusu/crosslinking-cons.jpeg",
+      url: "/img/services/likuvannya-keratokonusu/crosslinking-cons.jpg",
       alt: "Протипокази до крослінкінгу",
     },
     body: (

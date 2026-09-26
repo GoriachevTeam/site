@@ -37,7 +37,7 @@ export default [
     blurCompare: [
       {
         img: {
-          url: "/img/services/khirurgiya-glaukomi/glaucoma-free.jpeg",
+          url: "/img/services/khirurgiya-glaukomi/glaucoma-free.jpg",
           alt: "Здоровий вигляд",
         },
         label: "здоровий",
@@ -45,7 +45,7 @@ export default [
       },
       {
         img: {
-          url: "/img/services/khirurgiya-glaukomi/glaucoma-sick.jpeg",
+          url: "/img/services/khirurgiya-glaukomi/glaucoma-sick.jpg",
           alt: "Хворий вигляд",
         },
         label: "хворий",
@@ -82,7 +82,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/khirurgiya-glaukomi/close-angle-glaucoma.jpeg",
+      url: "/img/services/khirurgiya-glaukomi/close-angle-glaucoma.jpg",
       alt: "Закритокутова глаукома та її симптоми",
     },
     body: (
@@ -109,7 +109,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/khirurgiya-glaukomi/glaucoma-tests.jpeg",
+      url: "/img/services/khirurgiya-glaukomi/glaucoma-tests.jpg",
       alt: "Діагностика глаукоми",
     },
     body: (
@@ -142,7 +142,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/khirurgiya-glaukomi/glaucoma-risks.jpeg",
+      url: "/img/services/khirurgiya-glaukomi/glaucoma-risks.jpg",
       alt: "Ризики розвитку глаукоми",
     },
     body: (
@@ -369,17 +369,17 @@ export default [
     title: "Переваги лікування глаукоми в нашій клініці",
     cards: [
       {
-        img: "/img/services/khirurgiya-glaukomi/top-devices.jpeg",
+        img: "/img/services/khirurgiya-glaukomi/top-devices.jpg",
         name: "Високоякісне обладнання",
         desc: "Ми постійно інвестуємо в покращення апаратів для лазерного та хірургічного лікування глаукоми. Пацієнтам доступні новітні малоінвазивні методи лікування з високою ефективністю та мінімальними ризиками.",
       },
       {
-        img: "/img/services/khirurgiya-glaukomi/comfort.jpeg",
+        img: "/img/services/khirurgiya-glaukomi/comfort.jpg",
         name: "Зручне обслуговування",
         desc: "Спеціалісти медичного центру допоможуть вам вибрати оптимальний час для діагностики зору та консультації лікаря. Вони докладно розкажуть про підготовку до операції та про правила реабілітації.",
       },
       {
-        img: "/img/services/khirurgiya-glaukomi/professionals.jpeg",
+        img: "/img/services/khirurgiya-glaukomi/professionals.jpg",
         name: "Професійні лікарі",
         desc: "Наша команда — це головна цінність клініки. Кожен з наших спеціалістів відданий своїй справі — вони постійно підвищують кваліфікацію, щоб вибирати кращі методи лікування для пацієнтів.",
       },

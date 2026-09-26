@@ -11,7 +11,7 @@ export const metadata: Metadata = genMetaData({
   title: "Контакти офтальмологічного центру в Ужгороді | Goriachev",
   description:
     "Адреси, телефони та графік роботи Центру Дмитра Горячева в Ужгороді. Оберіть зручну локацію та запишіться на консультацію офтальмолога.",
-  img: "img/contact/contact-og.jpeg",
+  img: "img/contact/contact-og.jpg",
   canonical: "kontakty",
 });
 
@@ -21,7 +21,7 @@ export default function ContactsPage() {
       <TopBanner
         title="Контакти Центру Дмитра Горячева в Ужгороді"
         desc="Ми завжди на звʼязку. Перший крок - за вами."
-        img={{ url: "/img/contacts/contacts-bg.jpeg", alt: "Контакти" }}
+        img={{ url: "/img/contacts/contacts-bg.jpg", alt: "Контакти" }}
       />
       <section className="py-12">
         {ADRESSES.map(({ name, link, desc, title, photo }, idx) => (

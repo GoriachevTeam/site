@@ -22,7 +22,7 @@ export default [
             погано.
           </p>
         ),
-        img: "/img/services/lazerna-korektsiya-zoru/miopia.jpeg",
+        img: "/img/services/lazerna-korektsiya-zoru/miopia.jpg",
         steps: [SurgeryStep["miopia-eye"]],
       },
       {
@@ -43,7 +43,7 @@ export default [
             </p>
           </>
         ),
-        img: "/img/services/lazerna-korektsiya-zoru/longsight.jpeg",
+        img: "/img/services/lazerna-korektsiya-zoru/longsight.jpg",
         steps: [SurgeryStep["longsight-eye"]],
       },
       {
@@ -106,7 +106,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/lazerna-korektsiya-zoru/protypokasu-lazernoi-korekcii.jpeg",
+      url: "/img/services/lazerna-korektsiya-zoru/protypokasu-lazernoi-korekcii.jpg",
       alt: "Протипокази до лазерної корекції",
     },
     body: (

@@ -31,7 +31,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/likuvannya-sukhogo-oka/dry-eye-symptoms.jpeg",
+      url: "/img/services/likuvannya-sukhogo-oka/dry-eye-symptoms.jpg",
       alt: "Симптоми хвороби сухого ока",
     },
     body: (
@@ -63,7 +63,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/likuvannya-sukhogo-oka/dry-eye-reasons.jpeg",
+      url: "/img/services/likuvannya-sukhogo-oka/dry-eye-reasons.jpg",
       alt: "Причини виникнення сухості очей",
     },
     body: (
@@ -103,7 +103,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/likuvannya-sukhogo-oka/dry-eye-tests.jpeg",
+      url: "/img/services/likuvannya-sukhogo-oka/dry-eye-tests.jpg",
       alt: "Діагностика захворювання",
     },
     body: (
@@ -194,17 +194,17 @@ export default [
     title: "Методи лікування сухого ока, які ми застосовуємо",
     cards: [
       {
-        img: "/img/services/likuvannya-sukhogo-oka/cure-dry-eyes.jpeg",
+        img: "/img/services/likuvannya-sukhogo-oka/cure-dry-eyes.jpg",
         name: "Зволоження очей за допомогою безконсервантних крапель",
         desc: "Штучні сльози є симптоматичним лікуванням — зменшують і, можливо, зовсім усувають неприємні відчуття, а також, створюють захисну плівку на поверхні ока.\n\n Додатково можуть використовуватися ліки, які впливають на механізм розвитку сухого ока.",
       },
       {
-        img: "/img/services/likuvannya-sukhogo-oka/blefastim.jpeg",
+        img: "/img/services/likuvannya-sukhogo-oka/blefastim.jpg",
         name: "Процедура Блефастім і масаж повік",
         desc: "Блефастім зазвичай проводиться в комплексі з масажем повік. Це безболісна процедура, яка триває приблизно 20 хв. Під час процедури ми одягаємо пацієнту окуляри, які рівномірно прогрівають повіки протягом 10-15 хв. Після проводимо масаж повік (1-3 хв).\n\n Процедура проводиться для очищення і покращення роботи мейбомієвих залоз (залоз на повіках), покращує якість сльози і зменшує симптоми сухого ока.\n\n Покази - хвороба сухого ока, дисфункція мейбомієвих залоз, блефарит.",
       },
       {
-        img: "/img/services/likuvannya-sukhogo-oka/ipl.jpeg",
+        img: "/img/services/likuvannya-sukhogo-oka/ipl.jpg",
         name: "IPL-терапія",
         desc: "Найсучасніший і найефективніший метод лікування хвороби сухого ока. Це швидка та безболісна процедура, яка передбачає стимуляцію залоз за допомогою світла. Вона має доведену ефективність та схвалена органами охорони здоров’я у більшості країн світу — в тому числі європейською агенцією EMA та американською FDA.",
       },
@@ -255,17 +255,17 @@ export default [
     title: "Переваги лікування сухості очей у центрі Дмитра Горячева",
     cards: [
       {
-        img: "/img/services/likuvannya-sukhogo-oka/upgrade.jpeg",
+        img: "/img/services/likuvannya-sukhogo-oka/upgrade.jpg",
         name: "Постійне вдосконалення клініки",
         desc: "Ми інвестуємо в розвиток офтальмологічного центру та використовуємо сучасні методи лікування та діагностики при сухості ока.",
       },
       {
-        img: "/img/services/likuvannya-sukhogo-oka/good-doctors.jpeg",
+        img: "/img/services/likuvannya-sukhogo-oka/good-doctors.jpg",
         name: "Висококваліфіковані лікарі",
         desc: "Співробітники клініки регулярно проходять додаткове навчання та освоюють вдосконалені методики лікування захворювань очей. Наші спеціалісти стежать за розвитком медицини та призначають найкращі засоби догляду за очима — найефективніші та найбезпечніші. Наш колектив — це команда відданих своїй справі спеціалістів, які ставляться до пацієнтів з турботою та повагою.",
       },
       {
-        img: "/img/services/likuvannya-sukhogo-oka/modern-machines.jpeg",
+        img: "/img/services/likuvannya-sukhogo-oka/modern-machines.jpg",
         name: "Сучасне обладнання",
         desc: "Ми використовуємо новітню техніку, яка робить лікування за допомогою апарату IPL швидким і мінімізує рівень дискомфорту. Застосування якісних препаратів знижує ймовірність побічних ефектів і зменшує тривалість реабілітації.",
       },

@@ -5,7 +5,7 @@ import InfoBlock from "@/components/shared/InfoBlock";
 const Responsibilities: FC = () => (
   <InfoBlock
     img={{
-      url: "/img/home/handshake.jpeg",
+      url: "/img/home/handshake.jpg",
       alt: "Handshake",
     }}
   >

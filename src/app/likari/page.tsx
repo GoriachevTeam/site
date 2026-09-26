@@ -9,7 +9,7 @@ export const metadata: Metadata = genMetaData({
   title: "Офтальмологи в Ужгороді | Лікарі Центру Горячева",
   description:
     "Команда офтальмологів та офтальмохірургів Центру Дмитра Горячева в Ужгороді. Спеціалізації лікарів, досвід та запис на консультацію.",
-  img: "img/likari/likari-og.jpeg",
+  img: "img/likari/likari-og.jpg",
   canonical: "likari",
 });
 

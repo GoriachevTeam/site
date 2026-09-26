@@ -40,7 +40,7 @@ export default [
     blurCompare: [
       {
         img: {
-          url: "/img/services/khirurgiya-kosookosti/strabismus-free.jpeg",
+          url: "/img/services/khirurgiya-kosookosti/strabismus-free.jpg",
           alt: "Здоровий вигляд",
         },
         label: "здоровий",
@@ -48,7 +48,7 @@ export default [
       },
       {
         img: {
-          url: "/img/services/khirurgiya-kosookosti/strabismus-sick.jpeg",
+          url: "/img/services/khirurgiya-kosookosti/strabismus-sick.jpg",
           alt: "Хворий вигляд",
         },
         label: "хворий",
@@ -90,7 +90,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/khirurgiya-kosookosti/straubismus-causes.jpeg",
+      url: "/img/services/khirurgiya-kosookosti/straubismus-causes.jpg",
       alt: "Причини виникнення косоокості",
     },
     body: (
@@ -118,7 +118,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/khirurgiya-kosookosti/strabismus-tests.jpeg",
+      url: "/img/services/khirurgiya-kosookosti/strabismus-tests.jpg",
       alt: "Симптоми та діагностика косоокості",
     },
     body: (
@@ -158,17 +158,17 @@ export default [
     title: "Методи лікування та корекції косоокості в нашому центрі",
     cards: [
       {
-        img: "/img/services/khirurgiya-kosookosti/glasses-correction.jpeg",
+        img: "/img/services/khirurgiya-kosookosti/glasses-correction.jpg",
         name: "Окулярна корекція",
         desc: "Ефективний і єдиний метод лікування косоокості акомодаційного типу — особливо у дітей раннього віку. Діткам необхідно постійно користуватись окулярами, а з чотирьох років можна і мʼякими контактними лінзами.",
       },
       {
-        img: "/img/services/khirurgiya-kosookosti/operation.jpeg",
+        img: "/img/services/khirurgiya-kosookosti/operation.jpg",
         name: "Хірургічне лікування",
         desc: "Найефективніший метод корекції косоокості неакомодаційного типу та частково акомодаційній косоокості. Хірургія виправляє положення очей і дає можливість досягти вищого зору у комплексі з апаратним лікуванням. Найбільш сприятливим часом для хірургічного лікування є дошкільний вік — краща нейроадаптація мозку, швидша реабілітація під час раннього післяопераційного періоду, можливість відновлення бінокулярного зору.",
       },
       {
-        img: "/img/services/khirurgiya-kosookosti/sight-teraphy.jpeg",
+        img: "/img/services/khirurgiya-kosookosti/sight-teraphy.jpg",
         name: "Зорова терапія",
         desc: "Допоміжний метод виправлення косоокості у дорослих і дітей, який використовується у післяопераційному періоді для легшої нейроадаптації та обов’язково застосовується для лікування амбліопії. Він прискорює адаптацію нервової системи та дозволяє знову навчити мозок сприймати зображення від обох очей.",
       },
@@ -231,17 +231,17 @@ export default [
     title: "Чому варто звернутись саме в офтальмологічний центр Д. Горячева?",
     cards: [
       {
-        img: "/img/services/khirurgiya-kosookosti/technologies.jpeg",
+        img: "/img/services/khirurgiya-kosookosti/technologies.jpg",
         name: "Сучасні технології",
         desc: "Ми використовуємо новітні методи діагностики та лікування косоокості у дорослих і дітей. Наш офтальмологічний центр постійно інвестує у підвищення кваліфікації спеціалістів і купівлю сучасного обладнання.",
       },
       {
-        img: "/img/services/khirurgiya-kosookosti/top-job.jpeg",
+        img: "/img/services/khirurgiya-kosookosti/top-job.jpg",
         name: "Справжній професіоналізм",
         desc: "Наші лікарі — це не просто колектив, це команда відданих своїй справі спеціалістів. Вони індивідуально вивчають кожен випадок і підбирають найкращі методи лікування для кожного пацієнта — швидкі, безпечні та ефективні.",
       },
       {
-        img: "/img/services/khirurgiya-kosookosti/soc-resp.jpeg",
+        img: "/img/services/khirurgiya-kosookosti/soc-resp.jpg",
         name: "Соціальна відповідальність",
         desc: "Офтальмологічний центр Дмитра Горячева працює офіційно та повною мірою сплачує податки. Наша клініка бере участь у низці благодійних проєктів у сфері освіти, а також розвитку культури та спорту.",
       },

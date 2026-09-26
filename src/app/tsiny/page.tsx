@@ -9,7 +9,7 @@ export const metadata: Metadata = genMetaData({
   title: "Ціни на послуги офтальмолога в Ужгороді | Goriachev",
   description:
     "Актуальні ціни на діагностику зору, консультації, лазерну корекцію, лікування катаракти, глаукоми та інші офтальмологічні послуги.",
-  img: "img/prices/prices-og.jpeg",
+  img: "img/prices/prices-og.jpg",
   canonical: "tsiny",
 });
 
@@ -19,7 +19,7 @@ export default function PricesPage() {
       <TopBanner
         title="Ціни на офтальмологічні послуги в Ужгороді"
         desc="Здоровий зір ближче, ніж здається."
-        img={{ url: "/img/prices/prices-bg.jpeg", alt: "Ціни" }}
+        img={{ url: "/img/prices/prices-bg.jpg", alt: "Ціни" }}
       />
       <div className="container">
         <PriceAccordions />

@@ -37,7 +37,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/implantatsiya-fakichnikh-linz/iol-pokazy.jpeg",
+      url: "/img/services/implantatsiya-fakichnikh-linz/iol-pokazy.jpg",
       alt: "Покази до імплантації факічних лінз",
     },
     body: (
@@ -68,7 +68,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/implantatsiya-fakichnikh-linz/iol-cons.jpeg",
+      url: "/img/services/implantatsiya-fakichnikh-linz/iol-cons.jpg",
       alt: "Протипокази до імплантації факічних лінз",
     },
     body: (
@@ -89,7 +89,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/implantatsiya-fakichnikh-linz/iol-choose.jpeg",
+      url: "/img/services/implantatsiya-fakichnikh-linz/iol-choose.jpg",
       alt: "Підбір факічних інтраокулярних лінз",
     },
     body: (
@@ -186,7 +186,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/implantatsiya-fakichnikh-linz/iol-remove.jpeg",
+      url: "/img/services/implantatsiya-fakichnikh-linz/iol-remove.jpg",
       alt: "Видалення за потреби факічних лінз",
     },
     body: (

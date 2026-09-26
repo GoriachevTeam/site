@@ -29,7 +29,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/khirurgiya-katarakti/cataract-risks.jpeg",
+      url: "/img/services/khirurgiya-katarakti/cataract-risks.jpg",
       alt: "Фактори ризику катаракти",
     },
     body: (
@@ -58,7 +58,7 @@ export default [
     blurCompare: [
       {
         img: {
-          url: "/img/services/khirurgiya-katarakti/kataracta-free.jpeg",
+          url: "/img/services/khirurgiya-katarakti/kataracta-free.jpg",
           alt: "Приклад здорового зору",
         },
         label: "здоровий",
@@ -66,7 +66,7 @@ export default [
       },
       {
         img: {
-          url: "/img/services/khirurgiya-katarakti/kataracta-sick.jpeg",
+          url: "/img/services/khirurgiya-katarakti/kataracta-sick.jpg",
           alt: "Приклад хворого зору",
         },
         label: "хворий",
@@ -113,7 +113,7 @@ export default [
       </>
     ),
     img: {
-      url: "/img/services/khirurgiya-katarakti/сataracta-treatment.jpeg",
+      url: "/img/services/khirurgiya-katarakti/сataracta-treatment.jpg",
       alt: "Яке існує лікування катаракти",
     },
   },
@@ -142,14 +142,14 @@ export default [
       </>
     ),
     img: {
-      url: "/img/services/khirurgiya-katarakti/intra-lens.jpeg",
+      url: "/img/services/khirurgiya-katarakti/intra-lens.jpg",
       alt: "Яке існує лікування катаракти",
     },
   },
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/khirurgiya-katarakti/trifocal.jpeg",
+      url: "/img/services/khirurgiya-katarakti/trifocal.jpg",
       alt: "Трифокальна лінза",
     },
     body: <h2 className="not-prose">Трифокальна лінза</h2>,
@@ -169,7 +169,7 @@ export default [
     type: PageBlock.info,
     reverse: true,
     img: {
-      url: "/img/services/khirurgiya-katarakti/edof.jpeg",
+      url: "/img/services/khirurgiya-katarakti/edof.jpg",
       alt: "EDOF лінза",
     },
     body: <h2 className="not-prose">EDOF лінза</h2>,
@@ -185,7 +185,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/khirurgiya-katarakti/monofocal.jpeg",
+      url: "/img/services/khirurgiya-katarakti/monofocal.jpg",
       alt: "Монофокальна лінза",
     },
     body: <h2 className="not-prose">Монофокальна лінза</h2>,
@@ -336,22 +336,22 @@ export default [
     title: "Чому варто обрати для лікування центр Дмитра Горячева?",
     cards: [
       {
-        img: "/img/services/khirurgiya-katarakti/new-kataracta-methods.jpeg",
+        img: "/img/services/khirurgiya-katarakti/new-kataracta-methods.jpg",
         name: "Новітні методики лікування",
         desc: "Всі операції проводяться на сучасному обладнанні, яке дозволяє хірургу забезпечити найвищу якість операції, швидку реабілітацію та миттєвий ефект покращення зору, операції проводяться висококваліфікованими хірургами з багаторічним стажем.",
       },
       {
-        img: "/img/services/khirurgiya-katarakti/new-kataracta-methods-2.jpeg",
+        img: "/img/services/khirurgiya-katarakti/new-kataracta-methods-2.jpg",
         name: "Новітні методики діагностики та підбору інтраокулярних лінз",
         desc: "Передопераційні обстеження на найсучаснішому обладнанні, яке враховує індивідуальні показники пацієнта, та допомагає підібрати інтраокулярні лінзи, які по максимуму задовольнять потреби пацієнта",
       },
       {
-        img: "/img/services/khirurgiya-katarakti/doc-skills.jpeg",
+        img: "/img/services/khirurgiya-katarakti/doc-skills.jpg",
         name: "Висока кваліфікація лікарів",
         desc: "Наші офтальмологи регулярно проходять додаткове навчання, обмінюються досвідом з колегами та відвідують профільні заходи міжнародного рівня. Хірурги клініки — лікарі вищої категорії з досвідом понад 15 років, які проходять стажування за кордоном у Швейцарії, Британії та США.",
       },
       {
-        img: "/img/services/khirurgiya-katarakti/social-responsibility.jpeg",
+        img: "/img/services/khirurgiya-katarakti/social-responsibility.jpg",
         name: "Соціальна відповідальність",
         desc: "Керівництво клініки з повагою ставиться до співробітників, пацієнтів. Ми надаємо працівникам чудові умови кар’єрного зростання, забезпечуємо бездоганну якість послуг для клієнтів і беремо участь у благодійних проєктах.",
       },

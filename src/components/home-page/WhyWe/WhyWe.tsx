@@ -5,7 +5,7 @@ import InfoBlock from "@/components/shared/InfoBlock";
 const WhyWe: FC = () => (
   <InfoBlock
     img={{
-      url: "/img/home/operating.jpeg",
+      url: "/img/home/operating.jpg",
       alt: "Operating",
     }}
   >
