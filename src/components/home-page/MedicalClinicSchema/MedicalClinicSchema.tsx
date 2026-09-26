@@ -11,9 +11,8 @@ export default function MedicalClinicSchema() {
         medicalSpecialty: "https://schema.org/Ophthalmology",
         description:
           "Офтальмологічний центр Дмитра Горячева в Ужгороді. Діагностика зору, лазерна корекція, лікування катаракти, глаукоми, захворювань сітківки та дитяча офтальмологія.",
-        logo: "https://goriachev-uzh.clinic/REPLACE-WITH-ABSOLUTE-LOGO-URL.png",
-        image:
-          "https://goriachev-uzh.clinic/REPLACE-WITH-ABSOLUTE-MAIN-PHOTO-URL.jpg",
+        logo: "https://goriachev-uzh.clinic/share-og.png",
+        image: "https://goriachev-uzh.clinic/share-og.png",
         openingHoursSpecification: [
           {
             "@type": "OpeningHoursSpecification",
