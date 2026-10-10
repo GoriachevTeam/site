@@ -30,7 +30,7 @@ const InfoBlock: FC<TypeInfoBlock> = ({
       {img ? (
         <div className="-mx-6 md:mx-0">
           <Image
-            className="object-cover"
+            className="object-cover max-w-full"
             src={img.url}
             width={800}
             height={700}
