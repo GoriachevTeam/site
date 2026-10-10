@@ -178,11 +178,11 @@ const Header: FC = () => {
           </ul>
           <OnlineRegButton>Подати заявку</OnlineRegButton>
           <nav
-            className={`lg:hidden fixed top-24 inset-0 left-0 w-full bg-white backdrop-blur-md transition-all duration-300 ${
+            className={`lg:hidden fixed top-24 inset-0 left-0 w-full bg-white backdrop-blur-md transition-all duration-300 max-h-[calc(100%_-_96px)] ${
               menuOpen ? "h-screen overflow-y-scroll" : "overflow-hidden h-0"
             }`}
           >
-            <div className="container flex flex-col h-fullA pt-2 pb-7">
+            <div className="container flex flex-col pt-2 pb-7">
               <ul className="flex flex-col gap-3 text-lg lg:flex-row lg:items-center lg:gap-5 mb-auto">
                 {MOBILE_LINKS.map(({ name, url }) => (
                   <Link
@@ -204,6 +204,20 @@ const Header: FC = () => {
               >
                 +38 0(66) 790 0 090
               </Link>
+              <hr className="my-6" />
+              <div className="grid gap-1">
+                {ADRESSES.map(({ name, link }, idx) => (
+                  <a
+                    href={link}
+                    className="text-blue-600 underline-offset-4 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={idx}
+                  >
+                    {name}
+                  </a>
+                ))}
+              </div>
             </div>
           </nav>
           <button

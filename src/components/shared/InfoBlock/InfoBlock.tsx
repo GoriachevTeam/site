@@ -29,7 +29,7 @@ const InfoBlock: FC<InfoBlockProps> = ({
     >
       <div className="-mx-6 md:mx-0">
         <MixedImage
-          className="object-cover"
+          className="object-cover max-w-full"
           image={img}
           width={800}
           height={700}

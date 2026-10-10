@@ -11,7 +11,7 @@ export async function fetchAllPrices(): Promise<Price[]> {
   cacheTag("prices");
 
   const prices: Price[] = await client.fetch(
-    `*[_type == "price"] | order(_createdAt desc){
+    `*[_type == "price"] | order(_updatedAt desc){
       _id,
       name,
       serviceSlug,
