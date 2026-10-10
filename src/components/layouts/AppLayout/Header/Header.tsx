@@ -176,7 +176,7 @@ const Header: FC = () => {
               </Button>
             </li>
           </ul>
-          <OnlineRegButton>Подати заявку</OnlineRegButton>
+          <OnlineRegButton>Записатись</OnlineRegButton>
           <nav
             className={`lg:hidden fixed top-24 inset-0 left-0 w-full bg-white backdrop-blur-md transition-all duration-300 max-h-[calc(100%_-_96px)] ${
               menuOpen ? "h-screen overflow-y-scroll" : "overflow-hidden h-0"

@@ -13,9 +13,6 @@ const SuccessCard: FC = () => {
           Вашу заявку успішно надіслано. <br />
           Ми зв'яжемося з вами найближчим часом.
         </p>
-        <div className="inline-block bg-green-50 text-green-600 text-xs font-medium px-4 py-1.5 rounded-full">
-          ✓ Надіслано успішно
-        </div>
       </div>
     </div>
   );

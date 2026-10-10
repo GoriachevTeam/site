@@ -50,7 +50,7 @@ const MixedImage: FC<MixedImageProps> = ({
       alt={image.alt}
       {...(fill ? { fill } : { width: width ?? 1920, height: height ?? 1240 })}
       priority={priority}
-      className={cn("size-full object-cover", className)}
+      className={cn("size-full max-w-screen object-cover", className)}
       loading={loading}
     />
   );
