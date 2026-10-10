@@ -9,7 +9,7 @@ import { MixedImageProps } from "./interfaces";
 import { cn } from "@/lib/utils";
 
 function isSanityImage(image: TypeMixedImg): image is SanityImage {
-  return "asset" in image;
+  return "asset" in image && Boolean(image.asset);
 }
 
 const MixedImage: FC<MixedImageProps> = ({
@@ -27,7 +27,7 @@ const MixedImage: FC<MixedImageProps> = ({
 
     return (
       <img
-        className={cn("size-full object-cover", className)}
+        className={cn("size-full max-w-screen object-cover", className)}
         src={buildSrc(width || 1920, height || 1240)}
         srcSet={[
           `${buildSrc(640, 360)}  640w`,
