@@ -12,7 +12,7 @@ import "./globals.css";
 
 const montserrat = Montserrat({
   weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
   variable: "--font-montserrat",
   display: "swap",
 });
