@@ -27,7 +27,7 @@ export default [
         </p>
       </>
     ),
-    step: SurgeryStep["retina"],
+    // step: SurgeryStep["retina"],
   },
   {
     type: PageBlock.info,
@@ -230,13 +230,13 @@ export default [
             втрату зору при цукровому діабеті.
           </p>
         ),
-        steps: [
-          SurgeryStep["anastezia-90"],
-          SurgeryStep["enlarged-anastezia"],
-          SurgeryStep["lens-setup"],
-          SurgeryStep["laser-impuls"],
-          SurgeryStep["lens-remove"],
-        ],
+        // steps: [
+        //   SurgeryStep["anastezia-90"],
+        //   SurgeryStep["enlarged-anastezia"],
+        //   SurgeryStep["lens-setup"],
+        //   SurgeryStep["laser-impuls"],
+        //   SurgeryStep["lens-remove"],
+        // ],
       },
       {
         name: "Хірургічне лікування сітківки",
@@ -259,16 +259,16 @@ export default [
             </p>
           </>
         ),
-        steps: [
-          SurgeryStep.anastezia,
-          SurgeryStep["open-eye"],
-          SurgeryStep["3cut"],
-          SurgeryStep["tools-in"],
-          SurgeryStep["vitreous-out"],
-          SurgeryStep["gas-in"],
-          SurgeryStep["retina-ok"],
-          SurgeryStep["operation-end"],
-        ],
+        // steps: [
+        //   SurgeryStep.anastezia,
+        //   SurgeryStep["open-eye"],
+        //   SurgeryStep["3cut"],
+        //   SurgeryStep["tools-in"],
+        //   SurgeryStep["vitreous-out"],
+        //   SurgeryStep["gas-in"],
+        //   SurgeryStep["retina-ok"],
+        //   SurgeryStep["operation-end"],
+        // ],
       },
       {
         name: "Внутрішньоочне введення",
@@ -290,12 +290,12 @@ export default [
             випадку.
           </p>
         ),
-        steps: [
-          SurgeryStep.anastezia,
-          SurgeryStep.microneedle,
-          SurgeryStep.massage,
-          SurgeryStep.antibiotics,
-        ],
+        // steps: [
+        //   SurgeryStep.anastezia,
+        //   SurgeryStep.microneedle,
+        //   SurgeryStep.massage,
+        //   SurgeryStep.antibiotics,
+        // ],
       },
     ],
   },

@@ -24,7 +24,7 @@ export default [
         </p>
       </>
     ),
-    step: SurgeryStep["cloudy-lens"],
+    // step: SurgeryStep["cloudy-lens"],
   },
   {
     type: PageBlock.info,
@@ -197,14 +197,14 @@ export default [
   },
   {
     type: PageBlock.accordion,
-    carouselName: "Етапи операції",
-    carousel: [
-      SurgeryStep.anastezia,
-      SurgeryStep.alcon,
-      SurgeryStep.ultrasound,
-      SurgeryStep.introlens,
-      SurgeryStep.afterlens,
-    ],
+    // carouselName: "Етапи операції",
+    // carousel: [
+    //   SurgeryStep.anastezia,
+    //   SurgeryStep.alcon,
+    //   SurgeryStep.ultrasound,
+    //   SurgeryStep.introlens,
+    //   SurgeryStep.afterlens,
+    // ],
     accordion: [
       {
         name: "Процес хірургічного лікування катаракти",

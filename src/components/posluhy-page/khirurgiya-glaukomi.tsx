@@ -30,7 +30,7 @@ export default [
         ),
       },
     ],
-    carousel: [SurgeryStep["konus-retina"], SurgeryStep["ok-sight"]],
+    // carousel: [SurgeryStep["konus-retina"], SurgeryStep["ok-sight"]],
   },
   {
     type: PageBlock.info,
@@ -237,13 +237,13 @@ export default [
             збільшенням кришталика у випадку закритокутової глаукоми.
           </p>
         ),
-        steps: [
-          SurgeryStep.anastezia,
-          SurgeryStep.alcon,
-          SurgeryStep.ultrasound,
-          SurgeryStep.introlens,
-          SurgeryStep.afterlens,
-        ],
+        // steps: [
+        //   SurgeryStep.anastezia,
+        //   SurgeryStep.alcon,
+        //   SurgeryStep.ultrasound,
+        //   SurgeryStep.introlens,
+        //   SurgeryStep.afterlens,
+        // ],
       },
       {
         name: "Транссклеральна циклофотокоагуляція лазером",
@@ -262,13 +262,13 @@ export default [
             </ul>
           </>
         ),
-        steps: [
-          SurgeryStep["open-eye"],
-          SurgeryStep["anastezia-behind-eye"],
-          SurgeryStep["laser-bake"],
-          SurgeryStep["pressure-down"],
-          SurgeryStep["close-eye-back"],
-        ],
+        // steps: [
+        //   SurgeryStep["open-eye"],
+        //   SurgeryStep["anastezia-behind-eye"],
+        //   SurgeryStep["laser-bake"],
+        //   SurgeryStep["pressure-down"],
+        //   SurgeryStep["close-eye-back"],
+        // ],
       },
     ],
   },

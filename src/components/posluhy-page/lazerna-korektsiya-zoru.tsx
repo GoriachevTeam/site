@@ -23,7 +23,7 @@ export default [
           </p>
         ),
         img: "/img/services/lazerna-korektsiya-zoru/miopia.jpg",
-        steps: [SurgeryStep["miopia-eye"]],
+        // steps: [SurgeryStep["miopia-eye"]],
       },
       {
         name: "Гіперметропія",
@@ -44,7 +44,7 @@ export default [
           </>
         ),
         img: "/img/services/lazerna-korektsiya-zoru/longsight.jpg",
-        steps: [SurgeryStep["longsight-eye"]],
+        // steps: [SurgeryStep["longsight-eye"]],
       },
       {
         name: "Астигматизм",
@@ -56,15 +56,15 @@ export default [
             при тривалій роботі перед комп’ютером.
           </p>
         ),
-        img: "/img/services/lazerna-korektsiya-zoru/astigmatizm.png",
-        steps: [SurgeryStep["astigmatism-eye"]],
+        img: "/img/services/lazerna-korektsiya-zoru/astigmatizm.jpg",
+        // steps: [SurgeryStep["astigmatism-eye"]],
       },
     ],
   },
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/lazerna-korektsiya-zoru/lazerna-korekcia-zory.png",
+      url: "/img/services/lazerna-korektsiya-zoru/lazerna-korekcia-zory.jpg",
       alt: "Лазерна корекція",
     },
     body: (
@@ -235,14 +235,14 @@ export default [
             </p>
           </>
         ),
-        steps: [
-          SurgeryStep.anastezia,
-          SurgeryStep["open-eye"],
-          SurgeryStep["eye-drops"],
-          SurgeryStep["laser-retina-cut"],
-          SurgeryStep["protective-lense"],
-          SurgeryStep["close-eye"],
-        ],
+        // steps: [
+        //   SurgeryStep.anastezia,
+        //   SurgeryStep["open-eye"],
+        //   SurgeryStep["eye-drops"],
+        //   SurgeryStep["laser-retina-cut"],
+        //   SurgeryStep["protective-lense"],
+        //   SurgeryStep["close-eye"],
+        // ],
       },
     ],
   },
