@@ -64,7 +64,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/lazerna-korektsiya-zoru/lazerna-korekcia.png",
+      url: "/img/services/lazerna-korektsiya-zoru/lazerna-korekcia-zory.png",
       alt: "Лазерна корекція",
     },
     body: (

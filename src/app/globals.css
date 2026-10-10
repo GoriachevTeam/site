@@ -123,6 +123,14 @@
   --header-h: 96px;
 }
 
+header {
+  padding-top: env(safe-area-inset-top);
+}
+footer,
+.bottom-bar {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
