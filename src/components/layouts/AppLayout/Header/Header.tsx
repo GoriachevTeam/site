@@ -209,7 +209,7 @@ const Header: FC = () => {
                 {ADRESSES.map(({ name, link }, idx) => (
                   <a
                     href={link}
-                    className="text-blue-600 underline-offset-4 hover:underline"
+                    className="text-cyan-700 font-medium underline-offset-4 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                     key={idx}
