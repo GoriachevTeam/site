@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="uk" className={`${montserrat.variable} scroll-smooth`}>
+    <html lang="en" className={`${montserrat.variable} scroll-smooth`}>
       {GTM_ID ? <GoogleTagManager gtmId={GTM_ID} /> : null}
       {GA4_ID ? <GoogleAnalytics gaId={GA4_ID} /> : null}
       <body
