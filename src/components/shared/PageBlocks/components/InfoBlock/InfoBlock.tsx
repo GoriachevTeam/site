@@ -32,8 +32,8 @@ const InfoBlock: FC<TypeInfoBlock> = ({
           <Image
             className="object-cover max-w-full"
             src={img.url}
-            width={800}
-            height={700}
+            width={1200}
+            height={1200}
             alt={img.alt}
           />
         </div>

@@ -109,7 +109,7 @@ export default [
   {
     type: PageBlock.info,
     img: {
-      url: "/img/services/khirurgiya-glaukomi/glaucoma-test.jpg",
+      url: "/img/services/khirurgiya-glaukomi/glaucoma-tests.jpg",
       alt: "Діагностика глаукоми",
     },
     body: (
