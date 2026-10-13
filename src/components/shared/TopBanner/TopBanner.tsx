@@ -17,8 +17,9 @@ const TopBanner: FC<TopBannerProps> = ({
   category,
 }) => {
   const parsedDate = getDate(date);
+
   return (
-    <section className="relative isolate z-40 bg-slate-50 h-95 md:h-190 after:absolute after:inset-0 after:z-0 after:bg-linear-to-b after:from-transparent after:to-black after:opacity-60">
+    <section className="relative isolate z-40 bg-slate-50 h-[calc(100vh_-_96px)] after:absolute after:inset-0 after:z-0 after:bg-linear-to-b after:from-transparent after:to-black after:opacity-60">
       <div className="container relative z-10 container flex h-full flex-col items-start justify-end gap-3 py-6 text-slate-50 lg:py-12">
         {date ? (
           <time className="text-sm text-shadow-xs">{parsedDate}</time>
