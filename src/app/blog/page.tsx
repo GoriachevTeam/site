@@ -9,7 +9,7 @@ export const metadata: Metadata = genMetaData({
   title: "Блог про здоров’я очей | Центр Дмитра Горячева",
   description:
     "Матеріали офтальмологів Центру Дмитра Горячева про здоров’я очей, діагностику, профілактику, лікування та сучасну офтальмологію.",
-  img: "img/articles/blog-bg.hpg",
+  img: "img/articles/blog-banner-bg.jpg",
   canonical: "blog",
 });
 
@@ -19,7 +19,7 @@ export default function BlogPage() {
       <TopBanner
         title="Блог про здоров’я очей"
         desc="Все, що варто знати про зір, лікування та профілактику від фахівців центру Дмитра Горячева."
-        img={{ url: "/img/articles/blog-bg.jpg", alt: "Банер блогу" }}
+        img={{ url: "/img/articles/blog-banner-bg.jpg", alt: "Банер блогу" }}
       />
       <div className="container">
         <CategoriesNav />
