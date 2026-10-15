@@ -11,11 +11,13 @@ export type TypePageBlocks =
   | TypeInfoBlock
   | TypeInstructionsBlock
   | TypeScrollCards
-  | TypeArticlesBlock;
+  | TypeArticlesBlock
+  | TypeBookBtnBlock;
 
 export type TypeAccordionBlock = {
   type: PageBlock.accordion;
   title: string;
+  body?: React.ReactNode;
   carouselName?: string;
   carousel?: SurgeryStep[];
   stepsOut?: boolean;
@@ -35,6 +37,10 @@ export type TypeArticlesBlock = {
     name: string;
     desc: JSX.Element;
   }[];
+};
+
+export type TypeBookBtnBlock = {
+  type: PageBlock.bookBtn;
 };
 
 export interface TypeScrollCards {
@@ -203,6 +209,7 @@ export enum PageBlock {
   "instruction" = "instruction",
   "scrollCards" = "scrollCards",
   articles = "articles",
+  "bookBtn" = "bookBtn",
 }
 
 export enum StepLabel {

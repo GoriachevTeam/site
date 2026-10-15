@@ -1,8 +1,13 @@
 import { FC } from "react";
 
 import { ServicePricesProps } from "./interfaces";
+import OnlineRegButton from "@/components/shared/OnlineRegButton";
 
-const ServicePrices: FC<ServicePricesProps> = ({ title, prices }) => {
+const ServicePrices: FC<ServicePricesProps> = ({
+  title,
+  prices,
+  showBookBtn = true,
+}) => {
   return (
     <section className="py-12">
       <h2 className="font-bold text-balance text-black text-2xl md:text-3xl pb-6">
@@ -26,6 +31,11 @@ const ServicePrices: FC<ServicePricesProps> = ({ title, prices }) => {
           </div>
         ))}
       </div>
+      {showBookBtn ? (
+        <div className="flex justify-center py-14 md:py-16" key="bookBtn">
+          <OnlineRegButton>Записатися на консультацію</OnlineRegButton>
+        </div>
+      ) : null}
     </section>
   );
 };

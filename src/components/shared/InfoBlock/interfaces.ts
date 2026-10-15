@@ -4,7 +4,8 @@ import { TypeMixedImg } from "@/types/common";
 
 export interface InfoBlockProps extends PropsWithChildren {
   className?: string;
-  img: TypeMixedImg;
+  img?: TypeMixedImg;
   reverse?: boolean;
   skipContainer?: boolean;
+  sectionClassName?: string;
 }

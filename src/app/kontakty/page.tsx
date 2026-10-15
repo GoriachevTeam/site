@@ -34,21 +34,24 @@ export default function ContactsPage() {
             key={idx}
           >
             <h2 className="not-prose">{title}</h2>
-            <p>{desc}</p>
+            {desc?.map((option, idx) => (
+              <p key={idx}>{option}</p>
+            ))}
             <h3>Графік роботи:</h3>
             <p>
               Пн-Пт: 09:00 – 18:00
               <br />
-              Сб: 10:00 – 16:00, Нд: вихідний
+              Сб: 10:00 – 16:00
+              <br /> Нд: вихідний
             </p>
-            <ul>
+            <ul className="list-none p-0 [&_li]:px-0 [&_li]:flex [&_li]:gap-2">
               <li>
-                <strong>
-                  <Link href="tel:+380667900090">+38 0(66) 790 0 090</Link>
-                </strong>
+                <strong>Телефон:</strong>
+                <Link href="tel:+380667900090">+38 0(66) 790 0 090</Link>
               </li>
             </ul>
-            <p key={idx}>
+            <p className="flex gap-2" key={idx}>
+              <strong>Адреса:</strong>
               <a
                 className="underline-offset-4 hover:underline"
                 href={link}

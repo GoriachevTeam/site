@@ -8,4 +8,5 @@ export interface TopBannerProps {
   date?: string;
   doctor?: Pick<Doctor, "image" | "shortName">;
   category?: string;
+  bookBtnText?: string;
 }

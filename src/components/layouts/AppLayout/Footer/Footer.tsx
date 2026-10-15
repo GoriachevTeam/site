@@ -1,3 +1,5 @@
+"use client";
+
 import { FC } from "react";
 import Link from "next/link";
 
@@ -9,8 +11,11 @@ import { YEAR } from "@/lib/utils";
 import { ADRESSES } from "@/lib/adresses";
 import { CENTER_LINKS } from "./constants";
 import { SERVICE_LINKS } from "../Header/constants";
+import { usePathname } from "next/navigation";
 
 const Footer: FC = () => {
+  const path = usePathname();
+
   return (
     <footer className="bg-black py-12 text-slate-50">
       <div className="container flex flex-col-reverse justify-between gap-12 md:flex-row">
@@ -19,16 +24,27 @@ const Footer: FC = () => {
             <div className="flex flex-col gap-2">
               <h2 className="font-bold">Центр</h2>
               <ul className="flex flex-col gap-1">
-                {CENTER_LINKS.map(({ url, name }) => (
-                  <li key={url}>
-                    <Link
-                      href={url}
-                      className="text-white/80 transition-colors duration-300 hover:text-white"
-                    >
-                      {name}
-                    </Link>
-                  </li>
-                ))}
+                {CENTER_LINKS.map(({ url, name }) =>
+                  url === "/" && path === "/" ? (
+                    <li key={url}>
+                      <a
+                        href="/"
+                        className="text-white/80 transition-colors duration-300 hover:text-white"
+                      >
+                        {name}
+                      </a>
+                    </li>
+                  ) : (
+                    <li key={url}>
+                      <Link
+                        href={url}
+                        className="text-white/80 transition-colors duration-300 hover:text-white"
+                      >
+                        {name}
+                      </Link>
+                    </li>
+                  ),
+                )}
               </ul>
             </div>
             <div className="flex flex-col gap-2">

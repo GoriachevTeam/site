@@ -39,14 +39,19 @@ export default async function OptykaPage() {
 
   return (
     <>
-      <TopBanner title={title} desc={description} img={bannerImage} />
-      <section className="lg:py-12">
+      <TopBanner
+        title={title}
+        desc={description}
+        img={bannerImage}
+        bookBtnText="Записатися на примірку"
+      />
+      <div className="lg:py-12 [&_.infoBlock]:pt-0 [&_.infoBlock:not(:has(img))]:pt-4 [&_.infoBlock]:pb-6">
         {blocks?.map(({ image, content }, idx) => (
           <InfoBlock reverse={idx % 2 !== 0} img={image} key={idx}>
             <RteBlock className="[&_h2]:m-0" value={content} />
           </InfoBlock>
         ))}
-      </section>
+      </div>
     </>
   );
 }

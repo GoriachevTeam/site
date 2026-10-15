@@ -50,7 +50,14 @@ export default async function ServicePage({ params }: TypeServicePageParams) {
       />
       <div className="container">
         {service.blocks ? <PageBlocks blocks={service.blocks} /> : null}
-        <ServicePrices title={prices.pageTitle} prices={prices.prices} />
+        <ServicePrices
+          title={prices.pageTitle}
+          prices={prices.prices}
+          showBookBtn={!service.blocksAfterPrice}
+        />
+        {service.blocksAfterPrice ? (
+          <PageBlocks blocks={service.blocksAfterPrice} />
+        ) : null}
       </div>
     </>
   );

@@ -1,8 +1,16 @@
-import khirurgiyaGlaukomi from "./khirurgiya-glaukomi";
+import khirurgiyaGlaukomi, {
+  blocksAfterPrice as blocksGlaukomi,
+} from "./khirurgiya-glaukomi";
 import khirurgiyaKatarakti from "./khirurgiya-katarakti";
-import dityachaOftalmologiya from "./dityacha-oftalmologiya";
-import lazernaKorektsiyaZoru from "./lazerna-korektsiya-zoru";
-import khirurgiyaZakhvoryuvanSitkivki from "./khirurgiya-zakhvoryuvan-sitkivki";
+import dityachaOftalmologiya, {
+  blocksAfterPrice as blocksDityacha,
+} from "./dityacha-oftalmologiya";
+import lazernaKorektsiyaZoru, {
+  blocksAfterPrice as blocksLazerna,
+} from "./lazerna-korektsiya-zoru";
+import khirurgiyaZakhvoryuvanSitkivki, {
+  blocksAfterPrice as blocksSitkivki,
+} from "./khirurgiya-zakhvoryuvan-sitkivki";
 import { SERVICE_LINKS } from "@/components/layouts/AppLayout/Header/constants";
 
 import { EnumService } from "./interfaces";
@@ -12,6 +20,7 @@ const SERVICE_PRE_DATA = {
     bannerTitle: "Лазерна корекція зору в Ужгороді",
     desc: "Мрії здійснюються — дозвольте собі бачити більше!",
     blocks: lazernaKorektsiyaZoru,
+    blocksAfterPrice: blocksLazerna,
     seo: {
       title: "Лазерна корекція зору в Ужгороді | Центр Горячева",
       description:
@@ -22,6 +31,7 @@ const SERVICE_PRE_DATA = {
     bannerTitle: "Хірургічне лікування катаракти в Ужгороді",
     desc: "Дивіться на світ без перешкод!",
     blocks: khirurgiyaKatarakti,
+    blocksAfterPrice: null,
     seo: {
       title: "Лікування катаракти в Ужгороді | Центр Горячева",
       description:
@@ -32,6 +42,7 @@ const SERVICE_PRE_DATA = {
     bannerTitle: "Лікування захворювань сітківки в Ужгороді",
     desc: "Ваш Зір — найбільша наша цінність!",
     blocks: khirurgiyaZakhvoryuvanSitkivki,
+    blocksAfterPrice: blocksSitkivki,
     seo: {
       title: "Лікування сітківки ока в Ужгороді | Центр Горячева",
       description:
@@ -42,6 +53,7 @@ const SERVICE_PRE_DATA = {
     bannerTitle: "Лікування глаукоми в Ужгороді",
     desc: "Збережіть зір та якість життя!",
     blocks: khirurgiyaGlaukomi,
+    blocksAfterPrice: blocksGlaukomi,
     seo: {
       title: "Лікування глаукоми в Ужгороді | Центр Горячева",
       description:
@@ -64,6 +76,7 @@ const SERVICE_PRE_DATA = {
     bannerTitle: "Дитячий офтальмолог в Ужгороді",
     desc: "Ваша дитина буде бачити навколишній світ у всій його красі!",
     blocks: dityachaOftalmologiya,
+    blocksAfterPrice: blocksDityacha,
     seo: {
       title: "Дитячий офтальмолог в Ужгороді | Центр Горячева",
       description:

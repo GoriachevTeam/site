@@ -15,6 +15,7 @@ const TopBanner: FC<TopBannerProps> = ({
   date,
   doctor,
   category,
+  bookBtnText,
 }) => {
   const parsedDate = getDate(date);
 
@@ -40,7 +41,7 @@ const TopBanner: FC<TopBannerProps> = ({
             <span className="text-sm">{category}</span>
           </div>
         ) : (
-          <OnlineRegButton />
+          <OnlineRegButton>{bookBtnText}</OnlineRegButton>
         )}
       </div>
       <MixedImage

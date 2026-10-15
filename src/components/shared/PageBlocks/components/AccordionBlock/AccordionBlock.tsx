@@ -22,6 +22,7 @@ const AccordionBlock: FC<TypeAccordionBlock> = ({
   carousel,
   stepsOut,
   carouselName,
+  body,
 }) => {
   const [step, setStep] = useState<string | undefined>("0");
 
@@ -44,7 +45,19 @@ const AccordionBlock: FC<TypeAccordionBlock> = ({
       <h2 className="font-bold text-balance text-black text-2xl md:text-3xl pb-6">
         {title}
       </h2>
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:gap-12 items-start place-content-center">
+      {body ? (
+        <div className="prose max-w-none Aflex-1 [&_h2]:font-bold [&_h2]:text-balance [&_h2]:text-black [&_h2]:text-2xl md:[&_h2]:text-3xl [&_h2]:not-prose [&_h2]:pb-4">
+          {body}
+        </div>
+      ) : null}
+      <div
+        className={cn(
+          "grid grid-cols-1 gap-8 xl:gap-12 items-start place-content-center",
+          {
+            "lg:grid-cols-2 TOLIK": !!accordion.some((option) => !!option.img),
+          },
+        )}
+      >
         <Accordion
           type="single"
           collapsible={!isOneSlide}

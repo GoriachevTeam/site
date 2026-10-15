@@ -23,8 +23,10 @@ const InfoBlock: FC<TypeInfoBlock> = ({
 }) => (
   <section className="py-12">
     <div
-      className={cn("grid gap-8 lg:grid-cols-2 xl:gap-12  items-center", {
+      className={cn("grid gap-8 xl:gap-12 items-center", {
         "[&>*:first-child]:lg:order-2 [&>*:last-child]:lg:order-1": !reverse,
+        "flex justify-end lg:[&>div]:w-1/2": !img && !!reverse,
+        "lg:grid-cols-2": !!img || !!blurCompare?.length,
       })}
     >
       {img ? (
@@ -68,7 +70,7 @@ const InfoBlock: FC<TypeInfoBlock> = ({
           }
         />
       ) : null}
-      <div className="prose max-w-none flex-1 [&_h2]:font-bold [&_h2]:text-balance [&_h2]:text-black [&_h2]:text-2xl md:[&_h2]:text-3xl [&_h2]:not-prose [&_h2]:pb-4">
+      <div className="prose max-w-none Aflex-1 [&_h2]:font-bold [&_h2]:text-balance [&_h2]:text-black [&_h2]:text-2xl md:[&_h2]:text-3xl [&_h2]:not-prose [&_h2]:pb-4">
         {body}
         {textIcons?.length ? (
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 not-prose mt-2">
