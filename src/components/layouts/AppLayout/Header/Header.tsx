@@ -156,16 +156,13 @@ const Header: FC = () => {
           </nav>
           <ul className="hidden flex-col gap-1 text-right text-sm xl:flex mx-6">
             <li>
-              <Link
-                href="tel:+380667900090"
-                className="font-semibold text-base"
-              >
+              <Link href="tel:+380667900090" className="font-semibold text-lg">
                 +38 0(66) 790 0 090
               </Link>
             </li>
             <li>
               <Button
-                className="p-0 text-base whitespace-pre-line xl:whitespace-normal"
+                className="p-0 text-lg whitespace-pre-line xl:whitespace-normal"
                 variant="link"
                 asChild
               >

@@ -1,6 +1,7 @@
 import { FC } from "react";
 
 import RteBlock from "@/components/shared/RteBlock";
+import OnlineRegButton from "@/components/shared/OnlineRegButton";
 
 import { cn } from "@/lib/utils";
 import { urlFor } from "@/lib/urlFor";
@@ -27,6 +28,9 @@ const DoctorCard: FC<DoctorCardProps> = ({ name, bio, image, className }) => {
           {name}
         </h3>
         <RteBlock className="prose max-w-none text-base" value={bio} />
+        <OnlineRegButton className="mt-4 md:mt-7 w-full md:w-fit">
+          Записатися на прийом
+        </OnlineRegButton>
       </div>
     </div>
   );

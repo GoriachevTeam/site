@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 
+import InfoBlock from "@/components/shared/InfoBlock";
 import TopBanner from "@/components/shared/TopBanner";
 import { DoctorsGrid } from "@/components/likari-page";
 
 import { genMetaData } from "@/lib/metadata";
-import InfoBlock from "@/components/shared/InfoBlock";
 
 export const metadata: Metadata = genMetaData({
   title: "Офтальмологи в Ужгороді | Лікарі Центру Горячева",
