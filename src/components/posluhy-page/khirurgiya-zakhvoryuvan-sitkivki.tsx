@@ -470,7 +470,6 @@ export default [
   },
   {
     type: PageBlock.info,
-    reverse: true,
     body: (
       <>
         <h2 className="not-prose">Сучасні методики хірургічного лікування</h2>
@@ -506,7 +505,6 @@ export default [
   },
   {
     type: PageBlock.info,
-    reverse: true,
     body: (
       <>
         <h2 className="not-prose">

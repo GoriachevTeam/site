@@ -34,7 +34,6 @@ export default [
   },
   {
     type: PageBlock.info,
-    reverse: true,
     body: (
       <>
         <h2 className="not-prose">Чи можна вилікувати катаракту?</h2>
@@ -424,7 +423,6 @@ export default [
   },
   {
     type: PageBlock.info,
-    reverse: true,
     body: (
       <>
         <h2 className="not-prose">
