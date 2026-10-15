@@ -32,7 +32,7 @@ const DoctorsGrid: FC<PropsWithChildren<DoctorsGridProps>> = async ({
           {...mainDoctor}
         />
       ) : null}
-      <div className="grid h-fit gap-8 md:grid-cols-2 mt-8 xl:grid-cols-4">
+      <div className="grid h-fit gap-8 md:grid-cols-2 mt-8 xl:grid-cols-4 [&_a]:mt-auto">
         {doctorsToDisplay.map((doctor) => (
           <DoctorCard
             // className="md:[&_img]:h-57.5 lg:[&_img]:h-75 xl:[&_img]:h-45 2xl:[&_img]:h-55"

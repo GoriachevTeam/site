@@ -23,7 +23,7 @@ const DoctorCard: FC<DoctorCardProps> = ({ name, bio, image, className }) => {
         loading="lazy"
         alt={name}
       />
-      <div>
+      <div className="flex flex-col h-full">
         <h3 className="pt-4 pb-2 text-lg font-bold text-balance xl:text-xl">
           {name}
         </h3>
