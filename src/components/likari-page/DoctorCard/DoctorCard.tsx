@@ -27,7 +27,7 @@ const DoctorCard: FC<DoctorCardProps> = ({ name, bio, image, className }) => {
         <h3 className="pt-4 pb-2 text-lg font-bold text-balance xl:text-xl">
           {name}
         </h3>
-        <RteBlock className="prose max-w-none text-base" value={bio} />
+        <RteBlock className="prose max-w-none text-base mb-4" value={bio} />
         <OnlineRegButton className="mt-4 md:mt-7 w-full md:w-fit">
           Записатися на прийом
         </OnlineRegButton>
