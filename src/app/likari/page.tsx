@@ -20,7 +20,7 @@ export default function DoctorsPage() {
       <TopBanner
         title="Офтальмологи в Ужгороді - команда Центру Дмитра Горячева"
         desc="Досвід, якому варто довіритись"
-        img={{ url: "/img/likari/baner.jpg", alt: "Лікарі" }}
+        img={{ url: "/img/likari/baner-top.png", alt: "Лікарі" }}
       />
       <DoctorsGrid title="Наша команда" />
       <InfoBlock sectionClassName="pt-0">

@@ -4,8 +4,8 @@ import { FC, useCallback, useEffect, useLayoutEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { isArray } from "lodash";
-import { ChevronDown } from "lucide-react";
 import { usePathname } from "next/navigation";
+import { ChevronDown, Phone } from "lucide-react";
 
 import SocialLinks from "@/components/shared/SocialLinks";
 import OnlineRegButton from "@/components/shared/OnlineRegButton";
@@ -74,15 +74,24 @@ const Header: FC = () => {
       ) : null}
       <div className="flex bg-white size-full relative">
         <div className="container flex items-center justify-between my-auto">
-          <Link href="/">
-            <Image
-              className="size-10"
-              src="/svg/logo-square.svg"
-              width={40}
-              height={40}
-              alt="logo"
-            />
-          </Link>
+          <div className="flex items-center">
+            <Link href="/">
+              <Image
+                className="size-10"
+                src="/svg/logo-square.svg"
+                width={40}
+                height={40}
+                alt="logo"
+              />
+            </Link>
+            <a
+              href="tel:+380667900090"
+              aria-label="Зателефонувати"
+              className="ml-3 flex size-10 shrink-0 items-center justify-center rounded-full bg-cyan-700/10 text-cyan-700 transition-colors duration-300 hover:bg-cyan-700/20 md:hidden"
+            >
+              <Phone className="size-5" />
+            </a>
+          </div>
           <nav className="hidden lg:flex mr-auto ml-5">
             <ul className="flex flex-col gap-3 text-lg lg:flex-row lg:items-center lg:gap-5">
               {DESKTOP_LINKS.map((option, idx) => {
