@@ -73,7 +73,7 @@ const Header: FC = () => {
         />
       ) : null}
       <div className="flex bg-white size-full relative">
-        <div className="container flex items-center justify-between my-auto">
+        <div className="container grid grid-cols-[1fr_auto_1fr] items-center my-auto lg:flex lg:justify-between">
           <div className="flex items-center">
             <Link href="/">
               <Image
@@ -84,13 +84,15 @@ const Header: FC = () => {
                 alt="logo"
               />
             </Link>
-            <a
-              href="tel:+380667900090"
-              aria-label="Зателефонувати"
-              className="ml-3 flex size-10 shrink-0 items-center justify-center rounded-full bg-cyan-700/10 text-cyan-700 transition-colors duration-300 hover:bg-cyan-700/20 md:hidden"
-            >
-              <Phone className="size-5" />
-            </a>
+            <Button variant="primaryFilled" asChild>
+              <a
+                href="tel:+380667900090"
+                aria-label="Зателефонувати"
+                className="mx-auto flex size-10 shrink-0 items-center justify-center rounded-full transition-colors duration-300 md:hidden"
+              >
+                <Phone className="size-5" />
+              </a>
+            </Button>
           </div>
           <nav className="hidden lg:flex mr-auto ml-5">
             <ul className="flex flex-col gap-3 text-lg lg:flex-row lg:items-center lg:gap-5">
@@ -231,7 +233,7 @@ const Header: FC = () => {
           </nav>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="relative size-10 flex flex-col justify-between lg:hidden group cursor-pointer p-2.5"
+            className="relative size-10 flex flex-col justify-between justify-self-end lg:hidden group cursor-pointer p-2.5"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
           >
             {[1, 2, 3].map((line) => (
