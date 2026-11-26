@@ -10,7 +10,7 @@ export const metadata: Metadata = genMetaData({
   title: "Офтальмологи в Ужгороді | Лікарі Центру Горячева",
   description:
     "Команда офтальмологів та офтальмохірургів Центру Дмитра Горячева в Ужгороді. Спеціалізації лікарів, досвід та запис на консультацію.",
-  img: "img/likari/likari-og.jpg",
+  img: "img/likari/baner.png",
   canonical: "likari",
 });
 
@@ -20,7 +20,7 @@ export default function DoctorsPage() {
       <TopBanner
         title="Офтальмологи в Ужгороді - команда Центру Дмитра Горячева"
         desc="Досвід, якому варто довіритись"
-        img={{ url: "/img/likari/baner-top.png", alt: "Лікарі" }}
+        img={{ url: "/img/likari/baner.png", alt: "Лікарі" }}
       />
       <DoctorsGrid title="Наша команда" />
       <InfoBlock sectionClassName="pt-0">
