@@ -65,6 +65,9 @@ const ApplicationForm: FC = () => {
         return;
       }
 
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: "appointment_form_success" });
+
       setIsSuccess(true);
     } finally {
       setLoading(false);
